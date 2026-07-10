@@ -1,0 +1,14 @@
+name: Big-Demo
+
+on: 
+  push: 
+    branches: ['main']
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Run a single command using the runners shell
+        run: echo Hello Mars!!

@@ -34,3 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      
+      - name: Maybe I should know the date as well?
+        run: |
+          echo "And Now it is the date:"
+          date
